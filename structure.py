@@ -4,7 +4,7 @@ def structure(proj_name, tools, classes, files):
     
     if not os.path.isdir(proj_name):
         os.makedirs(proj_name)
-        os.chdir(proj_name)
+    os.chdir(proj_name)
     if not os.path.isdir("src"):
         os.makedirs("src")
     if not os.path.isdir("test"):
